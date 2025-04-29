@@ -1,47 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dice Game</title>
     <link rel="stylesheet" href="./style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet" />
 </head>
 
 <body>
+    <h1 class="head1">Welcome To The Dice Game!</h1>
+    <form>
+        <label for="fname">Player 1:</label>
+        <br>
+        <input type="text" class="pl1" placeholder="First Name" id="Text1" required>
+        <br>
+        <label for="fname">Player 2:</label><br>
 
-    <div class="c1">
-        <h1 class="header">Press The Button Below!</h1>
-    </div>
-    <div class="c3">
-
-
-        <div class="c2 dice">
-            <p class="player">Player 1</p>
-            <img class="img1" src="./images/dice6.png" alt="">
-
-
-        </div>
-        <div class="image dice">
-            <p class="player">Player 2</p>
-            <img class="img2" src="./images/dice6.png" alt="">
-        </div>
-    </div>
-    <div class="c4">
-        <div class="count">
-            <div class="counter1">
-                <p>Player 1: 0</p>
-            </div>
-            <div class="counter2">
-                <p>Player 2: 0</p>
-            </div>
-            <div class="btn"><button onclick="assignValue()" class="button"> Click To Play!</button></div>
-        </div>
-    </div>
-        <footer>www 🎲 App Brewery 🎲 com</footer>
+        <input type="text" class="pl2" placeholder="First Name" id="Text2" required>
+        <br>
+       <input type="Submit" id="Submit">
+        <a href="./game.html" class="buton">Continue</a>
         
-        <script src="./index.js"></script>
+    </form>
+
+<script src="./index.js"></script>
 </body>
 
 </html>

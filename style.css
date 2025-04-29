@@ -25,7 +25,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap: 15%;
 }
 
 .image {
@@ -40,7 +40,9 @@ footer {
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .dice {
@@ -48,12 +50,96 @@ footer {
     display: inline-block;
 }
 
-.c3{
+.c3 {
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5%;
+}
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.button {
+    background-color: #393E46;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    color: #4ECCA3;
+}
+
+.c4 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.head {
+    margin: 30px;
+    margin-bottom: 0;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 5rem;
+    color: #4ECCA3;
+}
+
+a {
+    color: #EEEEEE;
+    font-family: 'Indie Flower', cursive;
+}
+
+.insta {
+    width: 3%;
+    margin-right: 0.5%;
+}
+
+input {
+    margin-bottom: 5%;
+    background-color: #4ECCA3;
+    display: block;
+}
+
+label {
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 1rem;
+    color: #4ECCA3;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.head1 {
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 4rem;
+    color: #4ECCA3;
+    text-align: center;
+}
+
+.buton
+{
+    background-color: #393E46;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    color: #4ECCA3;
+    border: 2px solid #232931;
 }
 
 @media(max-width: 768px) {
@@ -66,38 +152,24 @@ footer {
         text-align: center;
         display: block;
     }
-}
 
-.btn
-{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
-    margin-top: 5%;
-    margin-bottom: 5%;}
+    .header {
+        font-size: 4rem;
+    }
 
-.button
-{
-    background-color: #393E46;
-    font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
-    color: #4ECCA3;
-}
-.c4
-{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;    
-}
-
-.head{
-    margin: 30px;
-    margin-bottom: 0;
-    font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
-    font-size: 5rem;
-    color: #4ECCA3;
+    .head
+    {
+        font-size: 4rem;
+    }
+    
+    .img1
+    {
+        height: 15%;
+        width:15%
+    }
+    .img2
+    {
+        height: 15%;
+        width: 15%;
+    }
 }

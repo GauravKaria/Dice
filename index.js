@@ -39,10 +39,12 @@ document.addEventListener("DOMContentLoaded",function(){
         
         if (pl1c === 10) {
                 document.querySelector(".header").innerHTML = " <h1 class='head'>Congrats: "+(pl1n || "Player 1")+" Wins!<br>Reload to play again</h1>";
+                document.querySelector(".button").disabled = true;
             }
     
             if (pl2c === 10) {
                 document.querySelector(".header").innerHTML = " <h1 class='head'>Congrats: "+(pl2n || "Player 2") +" Wins!<br>Reload to play again</h1> ";
+                document.querySelector(".button").disabled = true;
             }
 
             document.querySelector(".player1").innerHTML = pl1n || "Player 1";

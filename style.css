@@ -99,7 +99,7 @@ a {
 }
 
 .insta {
-    width: 3%;
+    width: 6%;
     margin-right: 0.5%;
 }
 
@@ -116,7 +116,7 @@ label {
     color: #4ECCA3;
 }
 
-form {
+.input {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,11 +135,11 @@ form {
 
 .buton
 {
-    background-color: #393E46;
+    color: #393E46;
     font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
-    color: #4ECCA3;
+    background-color: #4ECCA3;
     border: 2px solid #232931;
+    margin-bottom: 5%;
 }
 
 @media(max-width: 768px) {

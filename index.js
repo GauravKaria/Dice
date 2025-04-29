@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded",function(){
                 document.getElementById("Button").disabled = true;
             }
 
-            document.querySelector(".player1").innerHTML = pl1n || "Player 1";
-            document.querySelector(".player2").innerHTML = pl2n || "Player 2";
+            document.querySelector(".player1").innerHTML = pl1n || "Player 1: "+pl1;
+            document.querySelector(".player2").innerHTML = pl2n || "Player 2: "+pl2;
             document.querySelector(".counter1").innerHTML = "<p>"+(pl1n || "Player 1") + ": " + pl1c + "<p>";
             document.querySelector(".counter2").innerHTML = "<p>"+(pl2n || "Player 2") + ": "+ pl2c + "<p>";
         

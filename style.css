@@ -172,3 +172,12 @@ label {
         width: 15%;
     }
 }
+
+.rule
+{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 2rem;
+    color: #4ECCA3;
+}
